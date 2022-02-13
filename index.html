@@ -1,98 +1,123 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <title>Xaxage CV</title>
-  </head>
-  <body>
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <title>Xaxage CV</title>
+      <link href="styles.css" rel="stylesheet"/>
 
-    <!-- <img src="https://www.meme-arsenal.com/memes/44fcbd044db925766f0ae7ebbc2de61d.jpg" 
-    width="200"/> -->
+    </head>
+    <body>
+  <div class="container">
 
-    <img src="avatar.jpg" width="200" alt="Here is my photo"/>
-
-    <h1>Erik Hovhannisyan</h1>
-    <p>
-      <em
-        >I am a <strong>junior Java developer</strong> with 3 months of
-        experience.</em
-      >
-    </p>
-    <p>I am in love with gaming and tv shows.</p>
-
-    <hr />
-
-    <h2>My social networks</h2>
-    <ul type = "square">
-      <li><a href="https://www.linkedin.com/in/xaxage/" target="_blank"> LinkedIn</a></li>
-      <li><a href="https://t.me/xaxage"  target="_blank"> Telegram</a></li>
-    </ul>
-
-    <hr/>
-
-    <h2>My hobbies</h2>
-    <ol type="I">
-      <li>Gaming</li>
-      <li>Tv show watcher</li>
-      <li>Asian culture</li>
-    </ol>
-
-    <hr/>
-
-    <h2>Work experience</h2>
-    <table>
-        <tr>
-            <th>Company</th>
-            <th>Position</th>
-            <th>Year</th>
-        </tr>
-        <tr>
-            <td>Rockbite games</td>
-            <td>Junior Software Developer</td>
-            <td>2021-2022</td>
-        </tr>
-        <tr>
-            <td>UpWork</td>
-            <td>Software Developer</td>
-            <td>202-2021</td>
-        </tr>
-        
-    </table>
-
-    <hr/>
-
-    <h2>YouTune courses</h2>
-    <a href="youtube.html"> Watch the list</a>
-
-    <hr/>
-
-    <h2>Connect to me</h2>
-
-    <form action="Here i type my script which will execute after submition">
-        <label for="name"> Your name:</label>
-        <input type="text" id="name" placeholder="Type your name...">
-    </form>
-
-    <br>
-
-    <form>
-        <label for="email"> Your email:</label>
-        <input type="email" id="email" placeholder="Type your email...">
-
-        <br/>
-
-        <br>
-
-    <form>
-        <label for="email"> Your message:</label>
-        <br/>
-        <textarea id="text" rows="2" cols="15"></textarea>
-
-        <br/>
-
-        <input type="submit" value="Connect!">
-    </form>
+      <div class="info">
+            <img src="avatar.jpg"  alt="Here is my photo" class="avatar"/>
 
 
-  </body>
-</html>
+            <div class="info-text">
+            <h1>Erik Hovhannisyan</h1>
+      <p>
+        I am a <strong>junior Java developer</strong> with 3 months of
+          experience.
+      </p>
+      <p>I am in love with gaming and tv shows.</p>
+
+      <h4>My social networks</h4>
+      
+        <a href="https://www.linkedin.com/in/xaxage/" target="_blank"> LinkedIn</a>
+        |
+        <a href="https://t.me/xaxage"  target="_blank"> Telegram</a>
+      
+    </div>
+    </div>
+      
+  
+
+    
+      
+
+    
+      
+      <div class="card bg-yellow">
+      <h2>My hobbies</h2>
+      <ol class="list">
+        <li>Gaming</li>
+        <li>Tv show watcher</li>
+        <li>Asian culture</li>
+      </ol>
+
+    </div>
+
+    <div class="card bg-green">
+      <h2>Work experience</h2>
+      <table class="table">
+          <tr>
+              <td>Rockbite games</td>
+              <td>Junior Software Developer</td>
+              <td>2021-2022</td>
+          </tr>
+          <tr>
+              <td>UpWork</td>
+              <td>Software Developer</td>
+              <td>202-2021</td>
+          </tr>
+          
+      </table>
+
+    </div>
+
+    <div class="card bg-red">
+      <h2>YouTube coursee</h2>
+      <ul class="link-list">
+        <li>
+          <a href="https://youtu.be/DOEtVdkKwcU">HTML for beginners</a>
+        </li>
+        <li>
+          <a href="https://youtu.be/SpCUuyZZTp8">CSS for beginners</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="contact">
+      <h2>Connect to me</h2>
+
+      <div action="/">
+        <div class="row">
+        <div class="form-group">
+          <label for="name"> Your name:</label>
+          <input type="text" id="name" placeholder="Type your name...">
+        </div>
+     
+
+        <div class="form-group">
+          <label for="email"> Your email:</label>
+          <input type="email" id="email" placeholder="Type your email...">
+
+        </div>
+      </div>
+
+          
+
+        <div class="form-group">
+          <label for="text"> Your message:</label>
+          <br/>
+          <textarea id="text" rows="2" cols="15"></textarea>
+
+          </div>
+
+          <input class="btn" type="submit" value="Connect!">
+      </form>
+    </div>
+  </div>
+      
+
+    </div>
+
+
+    <div class="pos">
+      
+    </div>
+
+    <div style="margin-bottom: 500px;"></div>
+    </body>
+  </html>
